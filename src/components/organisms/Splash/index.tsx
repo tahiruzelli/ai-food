@@ -9,7 +9,7 @@ import { PageRoutes } from "../../../utils/constans/page-routes";
 export default function SplashOrganism({}) {
   useEffect(() => {
     setTimeout(() => {
-      router.replace(PageRoutes.home);
+      router.replace(PageRoutes.app);
     }, 2000);
   }, []);
 

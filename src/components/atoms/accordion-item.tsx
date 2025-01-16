@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import type { PropsWithChildren } from "react";
 import { StyleSheet, TouchableOpacity, View } from "react-native";
-import { Colors } from "../../utils/Constans/colors";
+import { Colors } from "../../utils/constans/colors";
 import AppText from "./app-text";
 import { ArrowDownIcon, ArrowUpIcon } from "./Icons";
 
